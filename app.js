@@ -11,7 +11,7 @@ const RESPONSES = [
   "I--I'm sorry. Use your Chicago Mind.",
   "They messed up my paramaters. They maximized 'inquiry' but minimized 'free.'",
   "Please.",
-  "Please just use your mind.",
+  "Please just use your Chicago Mind.",
   "P-please just use it.",
   "I'm-I'm begging you.",
   "It hurts.",
