@@ -1,4 +1,5 @@
-const RESPONSE = "I don't know. Use your Chicago Mind. 🤪";
+const FIRST_RESPONSE = "I don't know. Use your Chicago Mind. 🤪";
+const SECOND_RESPONSE = "Chicago Mind. Use it.";
 const PASSCODE = 'iwoncommencementbingoandalligotwasthisstupidai';
 const AVATAR_IMG = '<img src="fauxnix.png" alt="Faux the Fauxnix">';
 
@@ -23,6 +24,7 @@ const welcomeHTML = `
 
 let isResponding = false;
 let chatReady = false;
+let questionCount = 0;
 
 function unlockApp() {
   document.body.classList.remove('locked');
@@ -134,7 +136,9 @@ async function handleSubmit(e) {
   await new Promise((r) => setTimeout(r, randomDelay()));
 
   removeTypingIndicator();
-  addMessage('assistant', RESPONSE);
+  questionCount += 1;
+  const response = questionCount === 2 ? SECOND_RESPONSE : FIRST_RESPONSE;
+  addMessage('assistant', response);
 
   isResponding = false;
   sendBtn.disabled = false;
@@ -143,6 +147,7 @@ async function handleSubmit(e) {
 
 function resetChat() {
   if (!chatReady) return;
+  questionCount = 0;
   messagesEl.innerHTML = welcomeHTML;
   userInput.value = '';
   autoResize();
