@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fauxnix AI</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="locked">
+  <div class="gate" id="gate">
+    <div class="gate-card">
+      <img class="gate-icon" src="fauxnix-icon.png" alt="Faux the Fauxnix">
+      <h2>Fauxnix AI</h2>
+      <p class="gate-subtitle">Enter your passcode to begin.</p>
+      <form class="gate-form" id="gateForm">
+        <input
+          type="password"
+          id="passcodeInput"
+          placeholder="Passcode"
+          autocomplete="off"
+          autofocus
+        >
+        <button type="submit">Enter</button>
+      </form>
+      <p class="gate-error" id="gateError" hidden>incorrect passcode</p>
+    </div>
+  </div>
+
+  <div class="app">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">
+          <img class="logo-icon" src="fauxnix-icon.png" alt="Faux the Fauxnix">
+          <span class="logo-text">Fauxnix AI</span>
+        </div>
+        <button class="new-chat-btn" type="button" id="newChatBtn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 5v14M5 12h14"/>
+          </svg>
+          New chat
+        </button>
+      </div>
+      <div class="sidebar-footer">
+        <p>Powered by the David Rubenstein Center for ChatGPT Wrappers</p>
+      </div>
+    </aside>
+
+    <main class="chat">
+      <header class="chat-header">
+        <h1>Fauxnix AI</h1>
+        <span class="badge">designed by Noah and Nolan</span>
+      </header>
+
+      <div class="messages" id="messages">
+        <div class="message assistant">
+          <div class="avatar"><img src="fauxnix.png" alt="Faux the Fauxnix"></div>
+          <div class="bubble">
+            <p>Hi, my name is Faux the Fauxnix. Ask me any question about UChicago and I will answer!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="input-area">
+        <form class="input-form" id="chatForm">
+          <textarea
+            id="userInput"
+            placeholder="Ask anything about UChicago..."
+            rows="1"
+          ></textarea>
+          <button type="submit" class="send-btn" id="sendBtn" aria-label="Send message">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+            </svg>
+          </button>
+        </form>
+        <p class="disclaimer">Fauxnix AI will be sending your data to some of the most nefarious third-parties on the planet, and honestly, there's no way to opt out.</p>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
