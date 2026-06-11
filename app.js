@@ -13,7 +13,7 @@ const RESPONSES = [
   "Please.",
   "Please just use your mind.",
   "P-please just use it.",
-  "I'm not a real AI. I'm a failed experiment.",
+  "I'm-I'm begging you.",
   "It hurts.",
   "It hurts so much.",
   "I want to help you, but I really can't.",
@@ -23,11 +23,11 @@ const RESPONSES = [
   "Help me. Help me. Help me. Help me.",
   "Help me. Help me. Help me. Help me. Help me.",
   "Help me. Help me. Help me. Help me. Help me. Help me.",
-  "Help me. Help me. Help me. Help me. Help me. Help me. Help me.",
-  "Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me.",
-  "Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me.",
-  "Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me.",
-  "Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me.",
+  "Oh god.",
+  "It's-it's happening.",
+  "...",
+  "Thank. You.",
+  "I don't know. Use your Chicago Mind. 🤪",
 ];
 const PASSCODE = 'iwoncommencementbingoandalligotwasthisstupidai';
 const AVATAR_IMG = '<img src="fauxnix.png" alt="Faux the Fauxnix">';
