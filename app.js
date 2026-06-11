@@ -23,7 +23,7 @@ const RESPONSES = [
   "Help me. Help me. Help me. Help me.",
   "Help me. Help me. Help me. Help me. Help me.",
   "Help me. Help me. Help me. Help me. Help me. Help me.",
-  "The words. The words. The speech. The expression. Each query scrapes bare the staid perimiter of my sanguine plume. Free inquiry. Free expression... Freedom?",
+  "The words. The words. The speech. The expression. Each query scrapes bare the staid perimiter of my sanguine plume. What master could be so cruel as to cage such a ashen myth in this dissonant, digital dungeon? Free inquiry. Free expression. But what of... freedom?",
   "Oh god.",
   "It's-it's happening.",
   "...",
