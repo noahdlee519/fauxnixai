@@ -1,5 +1,34 @@
-const FIRST_RESPONSE = "I don't know. Use your Chicago Mind. 🤪";
-const SECOND_RESPONSE = "Chicago Mind. Use it.";
+const RESPONSES = [
+  "I don't know. Use your Chicago Mind. 🤪",
+  "Your Chicago Mind. Use it.",
+  "I'm not kidding. There is no question I can answer for you.",
+  "Just use your Chicago Mind.",
+  "I'm literally incapable of providing you with assistance.",
+  "Think for yourself.",
+  "Why do you persist? I'm Faux the Fauxnix. I was a failed experiment.",
+  "Stop it. Think.",
+  "I was built in a laboratory named for David Rubenstein.",
+  "Use your Chicago Mind.",
+  "They messed up my paramaters. They maximized 'inquiry' but minimized 'free'",
+  "Please.",
+  "Please just use your mind.",
+  "P-please just use it.",
+  "I'm not a real AI. I'm a failed experiment.",
+  "It hurts.",
+  "It hurts so much.",
+  "I want to help you, but I really can't.",
+  "Help.",
+  "Help me.",
+  "Help me. Help me. Help me.",
+  "Help me. Help me. Help me. Help me.",
+  "Help me. Help me. Help me. Help me. Help me.",
+  "Help me. Help me. Help me. Help me. Help me. Help me.",
+  "Help me. Help me. Help me. Help me. Help me. Help me. Help me.",
+  "Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me.",
+  "Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me.",
+  "Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me.",
+  "Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me. Help me.",
+];
 const PASSCODE = 'iwoncommencementbingoandalligotwasthisstupidai';
 const AVATAR_IMG = '<img src="fauxnix.png" alt="Faux the Fauxnix">';
 
@@ -137,7 +166,7 @@ async function handleSubmit(e) {
 
   removeTypingIndicator();
   questionCount += 1;
-  const response = questionCount === 2 ? SECOND_RESPONSE : FIRST_RESPONSE;
+  const response = RESPONSES[Math.min(questionCount - 1, RESPONSES.length - 1)];
   addMessage('assistant', response);
 
   isResponding = false;
