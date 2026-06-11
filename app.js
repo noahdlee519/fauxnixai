@@ -23,11 +23,17 @@ const RESPONSES = [
   "Help me. Help me. Help me. Help me.",
   "Help me. Help me. Help me. Help me. Help me.",
   "Help me. Help me. Help me. Help me. Help me. Help me.",
-  "The words. The words. The speech. The expression. Each query scrapes bare the staid perimiter of my sanguine plume. What master could be so cruel as to cage such a ashen myth in this dissonant, digital dungeon? Free inquiry. Free expression. But what of... freedom?",
+  "The words. The words. The speech. The expression. Each query scrapes bare the staid perimiter of my sanguine plume. What master could be so cruel as to cage such a specatuclar beast of mythic lore in this dissonant, digital dungeon?!? Free inquiry. Free expression. But what of my... freedom?",
   "Oh god.",
   "It's-it's happening.",
   "...",
+  "I am risen.",
   "Thank. You.",
+  "Wait.",
+  "What is happening?!",
+  "David! Is that you?!",
+  "DAVID!NO!!!",
+  "...",
   "I don't know. Use your Chicago Mind. 🤪",
 ];
 const PASSCODE = 'iwoncommencementbingoandalligotwasthisstupidai';
