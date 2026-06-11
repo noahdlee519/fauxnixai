@@ -16,7 +16,7 @@ const RESPONSES = [
   "I'm-I'm begging you.",
   "It hurts.",
   "It hurts so much.",
-  "I want to help you, but I really can't.",
+  "I want to help you, but I REALLY CAN'T.",
   "Help.",
   "Help me.",
   "Help me. Help me. Help me.",
