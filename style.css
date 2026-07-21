@@ -116,6 +116,12 @@ body.locked .gate {
   background: var(--maroon-dark);
 }
 
+.gate-hint {
+  margin-top: 1.25rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
 .gate-error {
   margin-top: 0.85rem;
   font-size: 0.8rem;
